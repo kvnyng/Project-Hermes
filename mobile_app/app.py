@@ -36,13 +36,9 @@ class MyPopup(Screen):
     pass
 
 kv = Builder.load_file("design.kv")
-
-
-
 class MyMainApp(App):
     def build(self):
         return kv
-
 
 if __name__ == "__main__":
     MyMainApp().run()
