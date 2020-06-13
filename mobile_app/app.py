@@ -9,24 +9,19 @@ from kivy.properties import ObjectProperty
 
 from kivy.lang import Builder
 from kivy.uix.screenmanager import ScreenManager, Screen
-'''
-class MyGrid(Widget):
 
-
-class MyApp(App):  # <- Main Class
-    def build(self):
-        grid = MyGrid()
-        grid.userName = "Leonardo"
-        return grid
-
-if __name__ == "__main__":
-    MyApp().run()
-'''
+from kivy.uix.popup import Popup
 
 class MainWindow(Screen):
     userName = 'Leonardo'
-    def pressed(self):
+    def callPolice(self):
         print(self.userName, '- fuck the police')
+
+    def popup(self):
+        show = MyPopup()
+        popupWindow = Popup(title="More information", content=show,
+                            size_hint=(None, None), size=(400, 400))
+        popupWindow.open()
 
 
 class SecondWindow(Screen):
@@ -37,7 +32,11 @@ class WindowManager(ScreenManager):
     pass
 
 
+class MyPopup(Screen):
+    pass
+
 kv = Builder.load_file("design.kv")
+
 
 
 class MyMainApp(App):

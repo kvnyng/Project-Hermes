@@ -12,6 +12,7 @@ WindowManager:
             cols:2
             Label:
                 text: " Graph speed "
+                on_touch_down: root.popup() #this will fire the popup for every Label
 
             Label:
                 text: " Graph aceleration "
@@ -32,12 +33,10 @@ WindowManager:
 
         Button:
             text:"Call the police"
-            on_press: root.pressed()
+            on_press: root.callPolice()
             on_release:
                 app.root.current = "second"
                 root.manager.transition.direction = "left"
-
-
 
 <SecondWindow>:
     name: "second"
@@ -60,3 +59,10 @@ WindowManager:
             on_release:
                 app.root.current = "main"
                 root.manager.transition.direction = "right"
+
+
+<MyPopup>:
+    Label:
+        text: "Wanna you more about your health?\nAsk the police!"
+        size_hint: 0.6, 0.2
+        pos_hint: {"x":0.2, "top":1}
