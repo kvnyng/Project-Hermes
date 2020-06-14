@@ -1,10 +1,9 @@
 from kivy.lang import Builder
 from kivy.uix.screenmanager import Screen
 
-
 Builder.load_string("""
-<AboutScreen>
-    name: 'about'
+<DashboardScreen>
+    name: 'dashboard'
     ScrollView:
         id: scroll
         do_scroll_x: False
@@ -17,13 +16,9 @@ Builder.load_string("""
             MDLabel:
                 font_style: 'Body1'
                 theme_text_color: 'Secondary'
-                text: 'fuck the president'#ut.get_data('texts')['about2']
-            
-
-
-
+                text: 'There is no need'#ut.get_data('texts2')['dashboard']
 """)
 
 
-class AboutScreen(Screen):
+class DashboardScreen(Screen):
     pass
