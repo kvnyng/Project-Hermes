@@ -11,7 +11,7 @@ Builder.load_string("""
         orientation: 'vertical'
         Image:
             width: dp(200)
-            source: '/home/benitez/Desktop/Project-Hermes/Screens_leo2/data/assets/static_img.jpg'
+            source: '/data/assets/map.png'
         Button:
             text:"Chamar ajuda"
             font_size: 45
