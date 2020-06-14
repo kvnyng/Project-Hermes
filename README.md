@@ -1,5 +1,7 @@
 # Project-Hermes
 
+This is the project from team 226 of the CCR Hackathon 2020, Brazil.
+
 # Machine Learning
 
 ## Road Quality Measurement
@@ -25,19 +27,38 @@ Using the Hough Transform we can detect the lane lines, allowing our system to d
 
 ![img](images/hough1.png)
 
-## Road segmentation
-
-can we do it, or just cite some paper?
-
 ## Cars and people detection
 
-YoloV3
+Using YoloV3 Convolutional Neural Network architecture we can identify *where* are some objects of interest, like cars or persons. This Neural Network was trained on MSCOCO dataset and is able to identify 80 different types of objects, including: person, bicycle, car, truck, traffic light, stop sign, cow, horse, among others.
+
+Prediction sample:
+
+![img](images/yolo2.png)
 
 ## Pothole detection
 
-can we find a model?
+We are a Neural Network similar to the one used for cars and people detection, but now it was trained specifically to identify potholes (buracos, in Portuguese).
+
+The training was performed and made available by [Suman Kumar Jha](https://github.com/jhasuman/potholes-detection)
+
+To perform a prediction, run: `python3 predict.py -c config.json -w models/full_yolo_backend.h5 -i ../models/img10.png` 
+
+Predictions samples:
+
+![img](images/pothole1.jpg)
+
+![img](images/pothole2.png)
+
+## Road segmentation
+
+If we had more time, we would implement a Neural Network to road segmentation following the academic publication of [Yecheng Lyu et al](https://arxiv.org/abs/1808.04450).
+
+The following image is a sample of **their paper** (not our result):
+
+![img](images/segmentation1.png)
 
 # Mobile
+
 We are using the Framework Kivy (Python language) to develop a minimum viable app.
 
 The visualization dashboard was developed using Infrogram platform.
