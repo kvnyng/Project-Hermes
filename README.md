@@ -7,9 +7,8 @@
 Using the Canny edge detector we are able to quantify how irregular the road is, how much bumps/potholes/defects it has. The objective quantification of the road quality is done using the following Key Indicators:
 
 1) Amount of edges detected, defining the indicator as:
-$$
-\frac{\sum_{i=0,j=0}^{width, height} edges(i,j)}{width*height}, \text{  where } width, height \in \R
-$$
+
+$\frac{\sum_{i=0,j=0}^{width, height} edges(i,j)}{width*height}, \text{  where } width, height \in \R$
 
 2) Number of detected contours (closed-form edges)
 3) Size of detected contours
@@ -33,7 +32,7 @@ can we do it, or just cite some paper?
 
 YoloV3
 
-## Bump detection
+## Pothole detection
 
 can we find a model?
 
