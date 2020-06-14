@@ -11,12 +11,13 @@ Builder.load_string("""
         orientation: 'vertical'
         Image:
             width: dp(200)
-            source: '/Users/btluu/Downloads/Project-Hermes-master/Screens_leo2/data/assets/static_img.jpg'
+            source: '/home/benitez/Desktop/Project-Hermes/Screens_leo2/data/assets/static_img.jpg'
         Button:
-            text:"Call the police"
+            text:"Chamar ajuda"
+            font_size: 45
             width: dp(20)
             on_release:
-                print('fuck the police')
+                print('calling the police')
                 app.root.ids.scr_mngr.current = 'dashboard'
                 root.manager.transition.direction = "left"
 

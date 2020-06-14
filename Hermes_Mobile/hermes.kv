@@ -19,19 +19,28 @@ NavigationLayout:
             title: 'Menu'
         NavigationDrawerIconButton:
             icon: 'arrow-down-drop-circle'
-            text: 'About'
+            text: 'Mapa'
             on_release: 
                 app.root.ids.scr_mngr.current = 'about'
         NavigationDrawerIconButton:
             icon: 'arrow-down-drop-circle'
-            text: 'Dashboard'
+            text: 'Ajuda'
             on_release: 
                 app.root.ids.scr_mngr.current = 'dashboard'
+        NavigationDrawerIconButton:
+            icon: 'arrow-down-drop-circle'
+            text: 'Buracos'
+        NavigationDrawerIconButton:
+            icon: 'arrow-down-drop-circle'
+            text: 'Paradas de descanso'
+        NavigationDrawerIconButton:
+            icon: 'arrow-down-drop-circle'
+            text: 'Histórico'
     BoxLayout:
         orientation: 'vertical'
         Toolbar:
             id: toolbar
-            title: 'Hackathon CCR - Hermes'
+            title: 'Hermes - Hackathon CCR'
             md_bg_color: app.theme_cls.primary_color
             background_palette: 'Primary'
             background_hue: '100'

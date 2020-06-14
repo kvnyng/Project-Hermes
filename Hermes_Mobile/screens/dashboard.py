@@ -10,17 +10,26 @@ Builder.load_string("""
         size: root.width, root.height
 
         Button:
-            text: "I'm not feeling well"
+            text: "Chamar um médico"
+            font_size: 30
             on_release:
                 app.root.ids.scr_mngr.current = "about"
                 root.manager.transition.direction = "right"
         Button:
-            text: "I think I'll be robbed"
+            text: "Chamar a polícia"
+            font_size: 30
             on_release:
                 app.root.ids.scr_mngr.current = "about"
                 root.manager.transition.direction = "right"
         Button:
-            text: "Other problem"
+            text: "Chamar a família"
+            font_size: 30
+            on_release:
+                app.root.ids.scr_mngr.current = "about"
+                root.manager.transition.direction = "right"
+        Button:
+            text: "Voltar"
+            font_size: 30
             on_release:
                 app.root.ids.scr_mngr.current = "about"
                 root.manager.transition.direction = "right"
