@@ -11,19 +11,18 @@ Builder.load_string("""
         cols:1
         GridLayout:
             cols: 2
-            MDLabel:
-                text: 'fuck Trump1'#ut.get_data('texts')['about']
-                
-            MDLabel:
-                text: 'fuck Trump2'#ut.get_data('texts')['about']
+            Image:
+                source: '/home/benitez/Desktop/Project-Hermes/Screens_leo2/data/assets/graph1.jpg'
+            Image:
+                source: '/home/benitez/Desktop/Project-Hermes/Screens_leo2/data/assets/graph2.jpg'
         GridLayout:
             # I did a second gridLayout only to change the proportios on screen... there must be a better way
             cols: 2
-            MDLabel:
-                text: 'fuck Trump3'#ut.get_data('texts')['about']
-                
-            MDLabel:
-                text: 'gimme help '#ut.get_data('texts')['about']
+            Image:
+                source: '/home/benitez/Desktop/Project-Hermes/Screens_leo2/data/assets/graph3.jpg'
+            Image:
+                source: '/home/benitez/Desktop/Project-Hermes/Screens_leo2/data/assets/graph4.jpg'
+
 
         Button:
             text:"Call the police"
