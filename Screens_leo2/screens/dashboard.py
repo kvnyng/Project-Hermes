@@ -4,19 +4,25 @@ from kivy.uix.screenmanager import Screen
 Builder.load_string("""
 <DashboardScreen>
     name: 'dashboard'
-    ScrollView:
-        id: scroll
-        do_scroll_x: False
-        BoxLayout:
-            orientation: 'vertical'
-            size_hint_y: None
-            height: dp(800)
-            padding: dp(15)
-            spacing: dp(15)
-            MDLabel:
-                font_style: 'Body1'
-                theme_text_color: 'Secondary'
-                text: 'There is no need'#ut.get_data('texts2')['dashboard']
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+
+        Button:
+            text: "I'm not feeling well"
+            on_release:
+                app.root.ids.scr_mngr.current = "about"
+                root.manager.transition.direction = "right"
+        Button:
+            text: "I think I'll be robbed"
+            on_release:
+                app.root.ids.scr_mngr.current = "about"
+                root.manager.transition.direction = "right"
+        Button:
+            text: "Other problem"
+            on_release:
+                app.root.ids.scr_mngr.current = "about"
+                root.manager.transition.direction = "right"
 """)
 
 
