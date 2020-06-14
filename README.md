@@ -29,7 +29,7 @@ Using the Hough Transform we can detect the lane lines, allowing our system to d
 
 ## Cars and people detection
 
-Using YoloV3 Convolutional Neural Network architecture we can identify *where* objects of interest are, like cars or persons. This Neural Network was trained on MSCOCO dataset and is able to identify 80 different types of objects, including: person, bicycle, car, truck, traffic light, stop sign, cow, horse, among others.
+Using YoloV3 Convolutional Neural Network architecture we can identify *where* objects of interest are, like cars or persons. This Neural Network was trained on MSCOCO dataset and is able to identify 80 different types of objects, including: person, bicycle, car, truck, traffic light, stop sign, cow, horse, etc.
 
 Prediction sample:
 
@@ -37,7 +37,7 @@ Prediction sample:
 
 ## Pothole detection
 
-Using a neural network similar to the one used for cars and people detection but trained specifically to identify potholes (buracos, in Portuguese, we are able to accurately find and label where potholes are in a video feed. 
+Using a neural network similar to the one used for cars and people detection but trained specifically to identify potholes, (buracos in Portuguese) we are able to accurately find and label where potholes are in a video feed. 
 
 The training was performed and made available by [Suman Kumar Jha](https://github.com/jhasuman/potholes-detection)
 
