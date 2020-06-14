@@ -10,6 +10,7 @@ Using the Canny edge detector we are able to quantify how irregular the road is,
 
 $\frac{\sum_{i=0,j=0}^{width, height} edges(i,j)}{width*height}, \text{  where } width, height \in \R$
 
+
 2) Number of detected contours (closed-form edges)
 3) Size of detected contours
 
