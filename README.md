@@ -37,7 +37,7 @@ Prediction sample:
 
 ## Pothole detection
 
-Using a neural network similar to the one used for cars and people detection but trained specifically to identify potholes, (buracos in Portuguese) we are able to accurately find and label where potholes are in a video feed. 
+Using a neural network similar to the one used for cars and people detection but trained specifically to identify potholes (buracos in Portuguese,) we are able to accurately find and label where potholes are in a video feed. 
 
 The training was performed and made available by [Suman Kumar Jha](https://github.com/jhasuman/potholes-detection)
 
