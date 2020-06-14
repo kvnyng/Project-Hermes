@@ -25,6 +25,8 @@ NavigationLayout:
         NavigationDrawerIconButton:
             icon: 'arrow-down-drop-circle'
             text: 'Dashboard'
+            on_release: 
+                app.root.ids.scr_mngr.current = 'dashboard'
     BoxLayout:
         orientation: 'vertical'
         Toolbar:

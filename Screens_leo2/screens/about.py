@@ -19,11 +19,12 @@ Builder.load_string("""
         GridLayout:
             # I did a second gridLayout only to change the proportios on screen... there must be a better way
             cols: 2
-            Label:
+            MDLabel:
                 text: 'fuck Trump3'#ut.get_data('texts')['about']
-                on_touch_down: root.popup()
-            Label:
-                text: 'fuck Trump3'#ut.get_data('texts')['about']
+                
+            MDLabel:
+                text: 'gimme help '#ut.get_data('texts')['about']
+
         Button:
             text:"Call the police"
             on_release:
