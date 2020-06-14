@@ -1,0 +1,3 @@
+[submodule "Hermes_MV_Code/potholes-detection"]
+	path = Hermes_MV_Code/potholes-detection
+	url = https://github.com/jhasuman/potholes-detection.git
