@@ -62,3 +62,8 @@ The following image is a sample of **their paper** (not our result):
 We are using the Framework Kivy (Python language) to develop a minimum viable app.
 
 The visualization dashboard was developed using Infrogram platform.
+
+![img](Hermes_Mobile/data/assests/0.png)
+Home screen of an app that shows the driver’s route that has now been marked by the algorithm. Each colour code represents the difficulty of driving in that area, starting from green to yellow, orange and red.
+
+
