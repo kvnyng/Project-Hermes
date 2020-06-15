@@ -63,7 +63,9 @@ We are using the Framework Kivy (Python language) to develop a minimum viable ap
 
 The visualization dashboard was developed using Infrogram platform.
 
-Home screen of an app that shows the driver’s route that has now been marked by the algorithm. Each colour code represents the difficulty of driving in that area, starting from green to yellow, orange and red. On the bottom right of the screen there is a mini-video that shows the current movement of the car indicating if it moves within the lanes. 
+Below is the home screen of the app that shows the driver’s route marked over by the algorithm. Each colour code represents the difficulty of driving in that area, starting from green to yellow, orange and red. Green means good, with little to no bumps, yellow means few bumps, orange means bumpy and red means extremely bumpy. 
+
+On the bottom right of the screen there is a mini-video that shows the current movement of the car indicating if it is driving within the lanes. 
 
 At the bottom of the screen there is an option to call for help.
 
