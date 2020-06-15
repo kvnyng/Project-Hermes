@@ -5,7 +5,7 @@ from kivy.lang import Builder
 
 root = Builder.load_string('''
 VideoPlayer:
-    source: 'https://vimeo.com/192521116'
+    source: '/assets/screen1.gif'
 ''')
 
 class TestApp(App):
