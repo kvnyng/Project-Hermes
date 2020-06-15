@@ -65,18 +65,18 @@ The visualization dashboard was developed using Infrogram platform.
 
 Home screen of an app that shows the driver’s route that has now been marked by the algorithm. Each colour code represents the difficulty of driving in that area, starting from green to yellow, orange and red. On the bottom right of the screen there is a mini-video that shows the current movement of the car indicating if it moves within the lanes. 
 
-![img](Hermes_Mobile/data/assets/0.png)
-
 At the bottom of the screen there is an option to call for help.
 
-![img](Hermes_Mobile/data/assets/1.png)
+![img](Hermes_Mobile/data/assets/0.png)
 
 This is the menu screen of the app with the following options: Map, Help, Potholes, Rest stops, History.
 
-![img](Hermes_Mobile/data/assets/2.png)
+![img](Hermes_Mobile/data/assets/1.png)
 
 Another screen of the app with the following options of calling a doctor,a police officer or a family member. There is a button to return to the home screen.
 
-![img](Hermes_Mobile/data/assets/screen1.gif)
+![img](Hermes_Mobile/data/assets/2.png)
 
 The flashing screen that pops up when the driver loses focus and is no longer driving safely. The screen then says “Help is on the way”. 
+
+![img](Hermes_Mobile/data/assets/screen1.gif)
