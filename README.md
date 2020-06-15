@@ -2,6 +2,7 @@
 
 This is the project from team 226 of the CCR Hackathon 2020, Brazil.
 
+[Youtube Video](https://youtu.be/L8l5KnxEaH4)
 # Machine Learning
 
 ## Road Quality Measurement
