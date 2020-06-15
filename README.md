@@ -25,7 +25,7 @@ From these three indicators, the number of detected contours (2) shows a better 
 ## Road lanes identification
 Using the Hough Transform we can detect the lane lines, allowing our system to detect whenever the driver sways off the road
 
-![img](images/hough1.png)
+![img](images/Hough_Transform.png)
 
 ## Cars and people detection
 
@@ -48,6 +48,8 @@ Predictions samples:
 ![img](images/pothole1.jpg)
 
 ![img](images/pothole2.png)
+
+![img](images/Pothole_Recognition.gif)
 
 ## Road segmentation
 
