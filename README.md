@@ -25,7 +25,7 @@ From these three indicators, the number of detected contours (2) shows a better 
 ## Road lanes identification
 Using the Hough Transform we can detect the lane lines, allowing our system to detect whenever the driver sways off the road
 
-![img](images/Hough_Transform.png)
+![img](images/Hough_Transform.gif)
 
 ## Cars and people detection
 
