@@ -67,7 +67,7 @@ Home screen of an app that shows the driver’s route that has now been marked b
 
 At the bottom of the screen there is an option to call for help.
 
-![img](Hermes_Mobile/data/assets/0.png)| width=100)
+![img](Hermes_Mobile/data/assets/0.png| width=100)
 
 This is the menu screen of the app with the following options: Map, Help, Potholes, Rest stops, History.
 
