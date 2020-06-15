@@ -75,8 +75,8 @@ This is the menu screen of the app with the following options: Map, Help, Pothol
 
 ![img](Hermes_Mobile/data/assets/2.png)
 
-3)    Another screen of the app with the following options of calling the doctor, police officer or family. There is a button to return to the home screen.
+Another screen of the app with the following options of calling a doctor,a police officer or a family member. There is a button to return to the home screen.
 
 ![img](Hermes_Mobile/data/assets/screen1.gif)
 
-4)    The flashing screen that pops up when the driver loses focus and is no longer driving safely. The screen then says “Help is on the way”
+The flashing screen that pops up when the driver loses focus and is no longer driving safely. The screen then says “Help is on the way”
