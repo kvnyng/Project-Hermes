@@ -64,6 +64,13 @@ We are using the Framework Kivy (Python language) to develop a minimum viable ap
 The visualization dashboard was developed using Infrogram platform.
 
 ![img](Hermes_Mobile/data/assets/0.png)
-Home screen of an app that shows the driver’s route that has now been marked by the algorithm. Each colour code represents the difficulty of driving in that area, starting from green to yellow, orange and red.
+Home screen of an app that shows the driver’s route that has now been marked by the algorithm. Each colour code represents the difficulty of driving in that area, starting from green to yellow, orange and red. On the bottom right of the screen there is a mini-video that shows the current movement of the car indicating if it moves within the lanes.
 
+![img](Hermes_Mobile/data/assets/1.png)
+This is the menu screen of the app with the following options: Map, Help, Potholes, Rest stops, History
 
+![img](Hermes_Mobile/data/assets/2.png)
+3)    Another screen of the app with the following options of calling the doctor, police officer or family. There is a button to return to the home screen.
+
+![img](Hermes_Mobile/data/assets/screen1.gif)
+4)    The flashing screen that pops up when the driver loses focus and is no longer driving safely. The screen then says “Help is on the way”
